@@ -1,6 +1,4 @@
-[![Travis Build
-Status](https://travis-ci.org/mlouielu/twstock.svg?branch=master)](https://travis-ci.org/mlouielu/twstock)
-[![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/d03c5laj01ap7qrt?svg=true)](https://ci.appveyor.com/project/mlouielu/twstock)
+![GitHub Actions Status](https://github.com/mlouielu/twstock/actions/workflows/ci.yml/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/mlouielu/twstock/badge.svg?branch=master)](https://coveralls.io/github/mlouielu/twstock?branch=master)
 [![PyPI version](https://badge.fury.io/py/twstock.svg)](https://badge.fury.io/py/twstock)
 [![Documentation Status](https://readthedocs.org/projects/twstock/badge/?version=latest)](http://twstock.readthedocs.io/zh_TW/latest/?badge=latest)
@@ -111,11 +109,11 @@ ma_p_cont = stock.continuous(ma_p)                # 計算五日均價持續天�
 ma_br = stock.ma_bias_ratio(5, 10)                # 計算五日、十日乖離值
 ```
 
-擷取自 2015 年 1 月至今之資料
+擷取自 2024 年 3 月至今之資料
 
 ```python
 stock = Stock('2330')
-stock.fetch_from(2015, 1)
+stock.fetch_from(2024, 3)
 ```
 
 基本資料之使用
